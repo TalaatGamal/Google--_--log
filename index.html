@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in Google</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="profile_vrt_raw_bytes_1587515358_10512-removebg-preview.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <div class="img-g-logo">
+          <a href="https://www.google.com"><img src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png" alt="" class="g-logo" style="cursor: pointer;"/></a>
+        </div>
+        <h1 class="txt" id="si">Sign in</h1>
+        <h4 class="txt">Use your Google Account</h4>
+      </div>
+      <div class="sign">
+        <input type="text" id="emailOrPhone" name="emailOrPhone" required placeholder="Email Or Phone">
+            <a href="#" id="forgotPassword" class="fp">Forgot email?</a>
+          <div class="info">
+            <h4>Not your computer? Use Guest mode to sign in privately.<a href="#"class="lm">Learn more</a></h4>
+          </div>
+          <div class="btns">
+            <div class="btn1">
+                <a href="" class="lm">Create account</a>
+            </div>
+            <div class="btn2">
+                <a href="" class="next">Next</a> 
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="language">
+        <form id="languageForm">
+            <select id="languageSelect" name="language" onchange="changeLanguage()">
+              <option value="en" selected>English (United States)</option>
+              <option value="ar">العربية (Arabic)</option>
+              <option value="fr">Français (French)</option>
+              <!-- أضف المزيد من اللغات حسب الحاجة -->
+            </select>
+          </form>
+          
+      </div>
+      <div class="items">
+        <ul>
+            <li><a href="">Help</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
